@@ -1,4 +1,4 @@
-FROM docker.elastic.co/logstash/logstash:6.0.1
+FROM docker.elastic.co/logstash/logstash:6.2.1
 
 RUN logstash-plugin remove x-pack
 RUN logstash-plugin install logstash-input-azureblob
