@@ -7,9 +7,9 @@ plugin to handle azure blob fetch.
 
 ## Environment variables
 
-ACCOUNT     = Azure Storage Account
-ACCESS_KEY  = Storage access key
-CONTAINER   = Container name
+- ACCOUNT     = Azure Storage Account
+- ACCESS_KEY  = Storage access key
+- CONTAINER   = Container name
 
-ELASTIC_HOST = The url of elasticserch e.g elasticsearch:9200
-ELASTIC_INDEX = The index prefix. Will have a suffix of _%{+YYYY.MM.dd}
+- ELASTIC_HOST = The url of elasticserch e.g elasticsearch:9200
+- ELASTIC_INDEX = The index prefix. Will have a suffix of _%{+YYYY.MM.dd}
